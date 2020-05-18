@@ -45,6 +45,9 @@
                 <div lass="col-12 col-sm align-self-center">
                     <img src="img/logo.png" class="img-fluid">
                 </div>
+                <div class="col-12 col-sm align-self-center">
+                        <a class="btn btn-warning btn-block btn-sm" href="#reservetable" role="button">Reserve a Table</a>
+                </div>
             </div>
         </div>
     </header>
@@ -71,18 +74,21 @@
 
 
         <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 col-md-3">
-                <h3>This Month's Promotions</h3>
-            </div>
-            <div class="col-12 col-sm-8 order-sm-first col-9">
+            
+            <div class="col-12 col-sm-8 order-sm-last col-9">
                 <div class="media">
-                <img class="d-flex mr-3 align-self-center img-thumbnail" src="img/buffet.png">
+                
                     <div class="media-body">
-                    <h3 class="mt-0">Weekend Grand Buffet</h3>
+                    <h3 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">New</span></h3>
                     <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
                     </div>
+                    <img class="d-flex mr-3 align-self-center img-thumbnail flex-last" src="img/buffet.png">
                 </div>
             </div>
+
+            <div class="col-12 col-sm-4 col-md-3">
+                    <h3>This Month's Promotions</h3>
+                </div>
         </div>
 
         <div class="row row-content align-items-center">
@@ -101,8 +107,55 @@
                </div> 
             </div>
         </div>
-    </div>
+        <br>
+            <div class="col-8 offset-2">
+                <div class="card">
+                    <div class="card-header bg-warning text-white">
+                        <h3>Reserve a Table</h3>
+                    </div>
+                    <form id="reservetable">
+                    
+                        <div class="form-group row">
+                            <div class="card-body">
+                                    <dl class="row">
+                                        
+                                        <dt class="col-4">Number of Guests</dt>
+                                        <dd class="col-8">
+                                        <label class="radio-inline"><input type="radio" name="optradio"> 1</label>
+                                        <label class="radio-inline"><input type="radio" name="optradio"> 2</label>
+                                        <label class="radio-inline"><input type="radio" name="optradio"> 3</label>
+                                        <label class="radio-inline"><input type="radio" name="optradio"> 4</label>
+                                        <label class="radio-inline"><input type="radio" name="optradio"> 5</label>
+                                        <label class="radio-inline"><input type="radio" name="optradio"> 6</label>
+                                        </dd>
+                                    </dl>
+                                    
+                                    
 
+                                    <div class="form-group row">
+                                            <label for="date" class="col-12 col-md-2 col-form-label"><dt>Date &amp;Time</dt></label>
+                                            <div class="col-4 offset-1">
+                                                <input type="date" class="form-control" id="date" placeholder="Date">
+                                            </div>
+                                            <div class="col-4">
+                                                <input type="time" class="form-control" id="time" name="telnum" placeholder="Time">
+                                            </div>
+                                    </div>
+                                    <br>
+                                    <div class="form-group row">
+                                            <div class="offset-md-3 col-md-10">
+                                                <button type="submit" class="btn btn-primary">Send Feedback</button>
+                                            </div>
+                                     </div>
+                                    
+                                </div>
+                        </div>
+                    </form>
+                </div>
+             </div>
+        
+    </div>
+    <br>
     <footer class="footer">
         <div class="container">
             <div class="row">             
