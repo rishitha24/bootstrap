@@ -19,7 +19,7 @@
 .jumbotron{
     padding: 70px 30px 70px 30px;
     margin: 0px;
-    background-color: steelblue;
+    background-color: rgb(3, 20, 170);
     color: floralwhite;
 }
 
@@ -35,7 +35,7 @@ body{
 }
 
 .navbar-dark{
-    background-color: cadetblue;
+    background-color: rgb(28, 152, 201);
 }
 
 .tab-content{
